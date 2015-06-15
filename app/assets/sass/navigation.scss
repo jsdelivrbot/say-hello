@@ -1,0 +1,64 @@
+.navbar .container-fluid {
+    background:white;
+}
+
+.navbar-default {
+    background-color:rgba(white,0);
+    border:none;
+}
+
+a.navbar-hizer {
+    background:$grey;
+    color:white;
+    &:hover {
+        background-color:$highlight;
+    }
+    img {
+        display:block;
+        width:95px;
+    }
+}
+
+.navbar-toggle {
+    height:50px;
+    margin:0;
+    background-color:$grey;
+    border-radius:0;
+    &:hover {
+        background-color:$highlight;
+    }
+    .icon-bar {
+        border:1px solid white;
+    }
+}
+
+.navbar-custom {
+    span.title {
+        line-height:50px;
+        float:left;
+        margin-left:10px;
+        letter-spacing:2px;
+        font-size:10px;
+        text-transform:uppercase;
+        color:$grey;
+    }
+    .navbar-header {
+        background:white;
+    }
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 340px;
+    border:0px;
+    text-align:center;
+    a {
+        color:$grey;
+        font-weight:400;
+        letter-spacing:1px;
+        &:hover {
+            background:white;
+            color:lighten($grey,20);
+            text-decoration:underline;
+        }
+    }
+}
